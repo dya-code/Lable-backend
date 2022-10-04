@@ -384,6 +384,21 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
+laftel.js@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/laftel.js/-/laftel.js-0.1.1.tgz#22735de3638c7e9b94efd0ba2baa4d7ddd5e25ff"
+  integrity sha512-1wnMSOnia5c0Q+m7mhXskIDsqH89k7WET6KMTA0Ijql+4Lhi1fW7VdV3A3ZFIWPiFLM5LUH0gpY3P5n0CE7+OQ==
+  dependencies:
+    node-fetch "^2.6.1"
+
+laftel.js@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/laftel.js/-/laftel.js-1.1.1.tgz#c4c47119abb5835deaa2a8b72bca97e6d3a81d5e"
+  integrity sha512-hAxpT+s2/Fr7YQsoluuTC8mXnaz2SRz+V3ENSgN9JkQJ2oaefqR8g6oGK5gcejPA1y/CjwSgzifKCQWIX3QRKQ==
+  dependencies:
+    laftel.js "^0.1.1"
+    node-fetch "^2.6.1"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -438,7 +453,7 @@ negotiator@0.6.3:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
 
-node-fetch@2:
+node-fetch@2, node-fetch@^2.6.1:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
