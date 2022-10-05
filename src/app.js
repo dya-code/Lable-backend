@@ -20,9 +20,8 @@ app.get('/api/timetable', async (_, res) => {
       arr.push(result.results[0].img)
     })
   }
-
+  
   res.send({ response, arr })
-
 })
 
 app.listen(port, () => { console.log(`http://localhost:${port}/\n========================================\n========================================`) })
