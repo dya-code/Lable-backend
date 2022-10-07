@@ -18,14 +18,25 @@ app.get('/api/timetable', async (_, res) => {
 
     let title = response[i].subject
     let img = ''
+    let genre = ''
+    let time = ''
+    let start_date = ''
+    let website = ''
+
+    time = response[i].time
+    start_date = response[i].startDate
+    website = response[i].website
+
     await laftel.search(response[i].subject).then(result => {
       img = result.results[0].img
+      genre = result.results[0].genres
+
     })
 
-    arr.push({ title, img })
+    arr.push({ title, img, genre, time, start_date, website })
   }
   
   res.send(arr)
 })
 
-app.listen(port, () => { console.log(`http://localhost:${port}/\n========================================\n========================================`) })
+app.listen(port, () => { console.log(`http://localhost:${port}/`) })
